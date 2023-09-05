@@ -17,10 +17,10 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Chukogal's Archive",
+  title: "t7s Archive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/Public',
+  baseDirectory: '/t7s',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -42,8 +42,8 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/Fonts',
-                   '/Other/女神之吻备份/',
+  protectedRoutes: ['/music',
+                   '/videos',
                    ],
   
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
